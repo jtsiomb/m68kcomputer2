@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name m68kcomp2)(type Legacy)(uri /home/nuclear/elec/m68kcomp2/m68kcomp2.lib)(options "")(descr ""))
+)

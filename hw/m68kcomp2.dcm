@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 68681
+D Interface serie 2 voies + 1 port parallele
+K MPRO
+$ENDCMP
+#
+$CMP mc68030
+D Motorola 68030 CPU PGA package
+$ENDCMP
+#
+$CMP mc68881
+D Motorola 68881 FPU PLCC-68
+$ENDCMP
+#
+#End Doc Library
