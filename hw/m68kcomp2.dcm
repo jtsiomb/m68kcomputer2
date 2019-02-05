@@ -1,8 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 68681
-D Interface serie 2 voies + 1 port parallele
-K MPRO
+$CMP AS6C8016
+D AS6C8016 512Kx16bit SRAM
 $ENDCMP
 #
 $CMP mc68030
