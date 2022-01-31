@@ -3,3 +3,8 @@
 *.kicad_prl
 fp-info-cache
 *-backups
+*.chp
+*.fus
+*.jed
+*.pin
+*auto_saved_files*

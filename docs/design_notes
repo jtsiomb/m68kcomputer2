@@ -1,0 +1,36 @@
+Design notes
+============
+
+Memory map
+----------
+
+potential decoding schemes:
+  - top 2 bits:	4 1gb blocks
+  - top 3 bits:	8 512mb blocks
+  - top 4 bits:	16 256mb blocks
+  - top 5 bits:	32 128mb blocks
+  - top 6 bits:	64 64mb blocks
+  - top 7 bits:	128 32mb blocks
+
+00000000 - 01ffffff (0-64M)	ROM
+02000000 - 07ffffff (64M-128M)	I/O space
+08000000 - ffffffff (128M-4G)	RAM
+
+
+Interrupts
+----------
+6 IRQs + NMI go through the priority encoder, which outpus the correct IPL
+signals to the processor.
+
+The interrupt acknowledge cycle is signalled by function code 7 (CPU space) and
+address bits A16-A19 all set (0xf). /FCPU is asserted by NANDing the FC signals,
+which is fed to the GAL along with the address lines and the address strobe
+(/AS), to assert /IACK.
+
+    IACK = /FCPU * /AS * A16 * A17 * A18 * A19
+
+Next steps:
+   - IACK should be fed back to the interrupting device to trigger user
+     vectoring followed by DSACK, or autovectoring, depending on the device.
+   - IACK should reset the BERR watchdog counter to signal spurious interrupt
+     after a number of cycles.
