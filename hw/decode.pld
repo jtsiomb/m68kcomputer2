@@ -1,14 +1,20 @@
 GAL16V8
 decode
 
-/FCPU /AS A16 A17 A18 A19 A26 A27 A28 GND
-A29 A30 A31 /IOEN /RAMEN /ROMEN /IACK NC NC VCC
+FCPU AS A16 A17 A18 A19 A26 A27 A28 GND
+A29 A30 A31 /IOEN /RAMEN /ROMEN /IACK /FPUEN CPUCLK VCC
 
-IACK = /FCPU * /AS * A16 * A17 * A18 * A19
-ROMEN = FCPU * /AS * /A26 * /A27 * /A28 * /A29 * /A30 * /A31
-IOEN = FCPU * /AS * A26 * /A27 * /A28 * /A29 * /A30 * /A31
+IACK = /FCPU * /AS * A19 * A18 * A17 * A16
+
+FPUEN = /FCPU * /CPUCLK * /A19 * /A18 * A17 * /A16 +
+	/FCPU * /AS * /A19 * /A18 * A17 * /A16
+
+ROMEN = FCPU * /AS * /A31 * /A30 * /A29 * /A28 * /A27 * /A26
+
+IOEN = FCPU * /AS * /A31 * /A30 * /A29 * /A28 * /A27 * A26
+
 RAMEN = FCPU * /AS * A26 + FCPU * /AS * A27 + FCPU * /AS * A28 +
 	FCPU * /AS * A29 + FCPU * /AS * A30 + FCPU * /AS * A31
 
 DESCRIPTION
-mc68030 computer (m68kcomputer2) address decoding and interrupt ack generation
+address decoding and interrupt ack generation
