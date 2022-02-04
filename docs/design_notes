@@ -27,10 +27,18 @@ address bits A16-A19 all set (0xf). /FCPU is asserted by NANDing the FC signals,
 which is fed to the GAL along with the address lines and the address strobe
 (/AS), to assert /IACK.
 
-    IACK = /FCPU * /AS * A16 * A17 * A18 * A19
+During IACK, address lines A1-A3 contain the interrupt level (inv of IPL), which
+can be used to route IACK to the correct device.
 
 Next steps:
    - IACK should be fed back to the interrupting device to trigger user
      vectoring followed by DSACK, or autovectoring, depending on the device.
    - IACK should reset the BERR watchdog counter to signal spurious interrupt
      after a number of cycles.
+
+DMA
+---
+
+Device asserts /BR (bus request), waits for /BG (bus grant), waits for /AS,
+/DSACK, and /BGACK to be released, and responds by asserting /BGACK and holding
+it for as long as it needs to remain bus master.  See MC68030UM section 7.7.
