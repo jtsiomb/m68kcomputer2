@@ -12,10 +12,15 @@ potential decoding schemes:
   - top 6 bits:	64 64mb blocks
   - top 7 bits:	128 32mb blocks
 
-00000000 - 01ffffff (0-64M)	ROM
-02000000 - 07ffffff (64M-128M)	I/O space
+00000000 - 03ffffff (0-64M)	ROM
+04000000 - 07ffffff (64M-128M)	I/O space
 08000000 - ffffffff (128M-4G)	RAM
 
+on-board I/O devices mapped in 4k blocks
+  - DUART:	0400 0000 - 0400 0fff
+  - RTC:	0400 1000 - 0400 1fff
+  - AUX:	0400 2000 - 0400 2fff
+  - ATA:	0400 3000 - 0400 3fff
 
 Interrupts
 ----------
