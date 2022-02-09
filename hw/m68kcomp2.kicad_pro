@@ -225,7 +225,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -290,7 +290,7 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.2,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -320,6 +320,14 @@
     [
       "81887191-7997-408d-991d-067bc9eabd93",
       ""
+    ],
+    [
+      "018b57af-ff7d-4307-85ac-81c5bb9e22f2",
+      "io"
+    ],
+    [
+      "8813dd32-7c63-44c6-8db8-3d4f3281df51",
+      "memory"
     ]
   ],
   "text_variables": {}
