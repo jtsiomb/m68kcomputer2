@@ -20,7 +20,8 @@ on-board I/O devices mapped in 4k blocks
   - DUART:	0400 0000 - 0400 0fff
   - RTC:	0400 1000 - 0400 1fff
   - AUX:	0400 2000 - 0400 2fff
-  - ATA:	0400 3000 - 0400 3fff
+  - ATA0:	0400 3000 - 0400 3fff
+  - ATA1:	0400 4000 - 0400 4fff
 
 Interrupts
 ----------
