@@ -10072,10 +10072,10 @@
       (reference "U30") (unit 1) (value "as6c8008") (footprint "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm")
     )
     (path "/571ea6a7-568a-4b7f-bf3a-6cc398e3e32a/4b11bfbd-a2cd-490a-949c-0871b15e3a6a"
-      (reference "U31") (unit 1) (value "exp_conn") (footprint "")
+      (reference "U31") (unit 1) (value "exp_conn") (footprint "m68kcomp2:pcix8slot")
     )
     (path "/571ea6a7-568a-4b7f-bf3a-6cc398e3e32a/95d6d01e-8373-4e4f-9af2-dae551fac7d8"
-      (reference "U32") (unit 1) (value "exp_conn") (footprint "")
+      (reference "U32") (unit 1) (value "exp_conn") (footprint "m68kcomp2:pcix8slot")
     )
     (path "/bb1f193c-4db0-43b5-9bb8-e99d45af99a9/e44df3d7-44ed-4b44-96d0-91fa8c8ec30a"
       (reference "U33") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
