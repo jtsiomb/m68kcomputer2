@@ -2854,7 +2854,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ps2conn_0_1"
-      (rectangle (start -5.08 5.08) (end 2.54 -5.08)
+      (rectangle (start -5.08 5.08) (end 5.08 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -2883,6 +2883,10 @@
       (pin no_connect line (at -1.27 5.08 270) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 3.81 -7.62 90) (length 2.54)
+        (name "SHIELD" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
       )
     )
   )
