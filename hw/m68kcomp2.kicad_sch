@@ -9217,7 +9217,7 @@
     (uuid d7997dcc-7f79-4011-8eff-8d684ebed9c8)
     (property "Reference" "SW1" (id 0) (at 19.05 130.81 0))
     (property "Value" "SWRST" (id 1) (at 19.05 138.43 0))
-    (property "Footprint" "" (id 2) (at 19.05 130.81 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVPBF" (id 2) (at 19.05 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 19.05 130.81 0)
@@ -9757,10 +9757,10 @@
       (reference "C7") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/bb1f193c-4db0-43b5-9bb8-e99d45af99a9/f31c27a3-c4bf-40dc-b93d-16593509c4e7"
-      (reference "C8") (unit 1) (value "10uF") (footprint "")
+      (reference "C8") (unit 1) (value "10uF") (footprint "Capacitor_SMD:CP_Elec_4x4.5")
     )
     (path "/bb1f193c-4db0-43b5-9bb8-e99d45af99a9/0fb7fc9c-fcf7-47c1-988f-7294d0311d51"
-      (reference "C9") (unit 1) (value "22uF") (footprint "")
+      (reference "C9") (unit 1) (value "22uF") (footprint "Capacitor_SMD:CP_Elec_4x4.5")
     )
     (path "/bb1f193c-4db0-43b5-9bb8-e99d45af99a9/15000b20-85db-448a-b844-c0aa86bc87ce"
       (reference "C10") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -9919,7 +9919,7 @@
       (reference "RN2") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Array_SIP9")
     )
     (path "/d7997dcc-7f79-4011-8eff-8d684ebed9c8"
-      (reference "SW1") (unit 1) (value "SWRST") (footprint "")
+      (reference "SW1") (unit 1) (value "SWRST") (footprint "Button_Switch_SMD:SW_SPST_EVPBF")
     )
     (path "/bb1f193c-4db0-43b5-9bb8-e99d45af99a9/212d34c3-ef9b-43fe-be7e-785b087f50df"
       (reference "SW2") (unit 1) (value "SWPWR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -10012,10 +10012,10 @@
       (reference "U14") (unit 1) (value "ATA0") (footprint "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/5569c6f5-5fd7-49d3-b3ab-5c5234315d6a"
-      (reference "U15") (unit 1) (value "mouse") (footprint "")
+      (reference "U15") (unit 1) (value "mouse") (footprint "m68kcomp2:minidin6")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/900bd744-39ea-4eca-848c-3ba10fa82615"
-      (reference "U16") (unit 1) (value "kbd") (footprint "")
+      (reference "U16") (unit 1) (value "kbd") (footprint "m68kcomp2:minidin6")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/8ab334f6-0907-4b4c-9e7b-262500583ec9"
       (reference "U17") (unit 1) (value "ds1501") (footprint "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm")
@@ -10048,7 +10048,7 @@
       (reference "U22") (unit 1) (value "mc1488") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/4e6f63e0-aae7-448c-af4d-a1af0761168e"
-      (reference "U23") (unit 1) (value "sdcard") (footprint "")
+      (reference "U23") (unit 1) (value "sdcard") (footprint "Connector_Card:SD_TE_2041021")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/c8079437-ca81-45a2-920d-9158027f50d7"
       (reference "U24") (unit 1) (value "sera") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm")
