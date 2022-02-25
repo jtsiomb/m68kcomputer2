@@ -10051,10 +10051,10 @@
       (reference "U23") (unit 1) (value "sdcard") (footprint "Connector_Card:SD_TE_2041021")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/c8079437-ca81-45a2-920d-9158027f50d7"
-      (reference "U24") (unit 1) (value "sera") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm")
+      (reference "U24") (unit 1) (value "sera") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/d5803fda-f7b8-43c6-aa25-a18c1cf3df42"
-      (reference "U25") (unit 1) (value "serb") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm")
+      (reference "U25") (unit 1) (value "serb") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/8813dd32-7c63-44c6-8db8-3d4f3281df51/5538ae4d-2495-4006-a01e-68a840731e9b"
       (reference "U26") (unit 1) (value "28C256") (footprint "Package_DIP:DIP-28_W15.24mm_Socket")
