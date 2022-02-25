@@ -8697,7 +8697,7 @@
     (property "Value" "4k7" (id 1) (at 78.74 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical" (id 2) (at 77.47 154.178 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 77.47 154.178 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 152.4 0)
@@ -8919,7 +8919,7 @@
     (property "Value" "4k7" (id 1) (at 140.97 193.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical" (id 2) (at 139.192 191.77 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 139.192 191.77 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 140.97 191.77 0)
@@ -9898,19 +9898,19 @@
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9508d616-40da-4229-8e75-ddcf500da2cc"
-      (reference "R3") (unit 1) (value "4k7") (footprint "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical")
+      (reference "R3") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/b99cfdd4-1443-4e14-9c8b-a346be8294ac"
-      (reference "R4") (unit 1) (value "4k7") (footprint "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical")
+      (reference "R4") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/529b1525-6dc5-4706-a288-e328b5ead0a5"
-      (reference "R5") (unit 1) (value "4k7") (footprint "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical")
+      (reference "R5") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/af7f1839-d4ec-4fbe-a95d-d9f8132fda16"
-      (reference "R6") (unit 1) (value "1k") (footprint "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical")
+      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/018b57af-ff7d-4307-85ac-81c5bb9e22f2/e3880d25-af4b-47d7-a246-101205e47723"
-      (reference "R7") (unit 1) (value "1k") (footprint "OptoDevice:R_LDR_D13.8mm_P9.0mm_Vertical")
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3086e7bb-ee82-4de0-9e96-a315fb5211a4"
       (reference "RN1") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Array_SIP9")
